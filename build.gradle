@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'com.github.weave-mc.weave-gradle' version 'bcf6ab0279'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+minecraft {
+    version "1.8.9"
+}
+
+repositories {
+    maven { url = "https://repo.spongepowered.org/repository/maven-public/" }
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    compileOnly 'org.spongepowered:mixin:0.8.5'
+}
+
+

@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            name = 'JitPack'
+            url = 'https://jitpack.io'
+        }
+    }
+}
+
+rootProject.name = 'LunarMod'
+
