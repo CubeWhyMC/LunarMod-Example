@@ -15,6 +15,7 @@ public class HookMinecraft extends Hook {
 
     @Override
     public void transform(@NotNull ClassNode classNode, @NotNull AssemblerConfig assemblerConfig) {
+        // like ASM
         classNode.methods.stream()
                 .filter(m -> m.name.equals("startGame"))
                 .findFirst().orElseThrow()
