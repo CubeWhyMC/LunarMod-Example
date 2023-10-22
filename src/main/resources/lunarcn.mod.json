@@ -5,7 +5,5 @@
   "entrypoints": [
     "com.example.ModEntry"
   ],
-  "hooks": [
-    "com.example.hooks.HookMinecraft"
-  ]
+  "hookPackage": "org.example.hooks"
 }

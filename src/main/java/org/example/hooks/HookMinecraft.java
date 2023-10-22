@@ -1,12 +1,14 @@
 package org.example.hooks;
 
 import org.cubewhy.lunarcn.loader.api.Hook;
+import org.cubewhy.lunarcn.loader.api.SubscribeHook;
 import org.jetbrains.annotations.NotNull;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.Type;
 import org.objectweb.asm.tree.ClassNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 
+@SubscribeHook
 public class HookMinecraft extends Hook {
 
     public HookMinecraft() {
