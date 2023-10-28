@@ -3,7 +3,7 @@
     "example.mixins.json"
   ],
   "entrypoints": [
-    "com.example.ModEntry"
+    "org.example.ModEntry"
   ],
   "hookPackage": "org.example.hooks"
 }
