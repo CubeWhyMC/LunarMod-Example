@@ -1,0 +1,7 @@
+{
+  "name": "ExampleMod",
+  "version": "${version}",
+  "author": "CubeWhyMC",
+  "website": "https://www.lunarclient.top",
+  "repository": "https://github.com/CubeWhyMC/LunarMod-Example"
+}

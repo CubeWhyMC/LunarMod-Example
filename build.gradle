@@ -23,4 +23,14 @@ dependencies {
     compileOnly 'org.ow2.asm:asm-tree:9.4'
 }
 
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("lunarcn.meta.json") {
+        expand "version": project.version
+    }
+
+    rename "(.+_at.cfg)", "META-INF/\$1"
+}
+
 
