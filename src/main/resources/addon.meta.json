@@ -1,0 +1,10 @@
+{
+  "name": "ExampleMod",
+  "version": "${version}",
+  "description": "LunarCN-Mod Example",
+  "authors": ["CubeWhyMC"],
+  "website": "https://www.lunarclient.top",
+  "repository": "https://github.com/CubeWhyMC/LunarMod-Example",
+  "dependents": [
+  ]
+}

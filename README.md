@@ -2,11 +2,9 @@
 
 > Tutorial: [here](https://github.com/CubeWhyMC/LunarClient-CN/wiki/LunarCN-mod-development)
 
-## Version
+## Loader Version
 
-> v1.3+ has different modding API
-
-Loader version: v1.3
+Loader version: v1.1 (equals old-v1.4.1)
 
 
 ## Resources description
@@ -14,6 +12,8 @@ Loader version: v1.3
 example.mixins.json: Mixins
 
 lunarcn.mod.json: Mod config
+
+addon.meta.json: Celestial META file
 
 ## Class description
 

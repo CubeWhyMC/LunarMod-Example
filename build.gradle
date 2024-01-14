@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'com.github.weave-mc.weave-gradle' version 'bcf6ab0279'
+    id 'com.github.weave-mc.weave-gradle' version 'fac948d'
 }
 
 group = 'org.example'

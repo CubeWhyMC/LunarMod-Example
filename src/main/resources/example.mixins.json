@@ -1,6 +1,5 @@
 {
-  "required": true,
-  "minVersion": "0.8.5",
+  "required": false,
   "package": "org.example.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
